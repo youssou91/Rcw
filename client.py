@@ -1,6 +1,6 @@
 import requests
  
-url = 'http://localhost:8000/'  # URL correcte de FastAPI
+url = 'https://apiapp-a0gbffgfedepemby.canadacentral-01.azurewebsites.net'  # URL correcte de FastAPI
  
 response = requests.get(url)
 data = response.json()  # Corrigé ici
